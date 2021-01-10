@@ -2,6 +2,7 @@ package ru.geekbrains.home_works;
 
 import static ru.geekbrains.home_works.LessonOne.*;
 import static ru.geekbrains.home_works.LessonTwo.*;
+import static ru.geekbrains.home_works.LessonFour.*;
 
 public class Main {
 
@@ -32,6 +33,9 @@ public class Main {
         fillDiagonal(matrix);
         printArray(matrix);
         fillDiagonal(matrix);
+
+        System.out.println("Lesson4");
+        start();
 
     }
 }
